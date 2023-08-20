@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textflshlight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="@string/flashlight"
+    android:textSize="36sp"
+    android:textColor="@color/dark_Green"
+    android:textStyle="bold"
+    android:layout_marginBottom="16dp"
+    />
+
+    <ToggleButton
+        android:id="@+id/btn_flash"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/off"
+        android:elevation="16dp"
+        android:backgroundTint="@color/dark_Green"/>
+</LinearLayout>

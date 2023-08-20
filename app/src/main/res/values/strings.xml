@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Falsh Light</string>
+    <string name="flashlight"><u>FlashLight</u></string>
+    <string name="off">ON</string>
+</resources>
